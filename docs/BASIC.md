@@ -16,6 +16,20 @@ Program pertama yang digunakan untuk memverifikasi instalasi JDK dan struktur pr
 
 ---
 
+## Cakupan Variabel (Variable Scope)
+
+File: `src/basic/VariableScope.java`
+
+Scope menentukan di mana sebuah variabel dapat diakses. Di Java, scope ditentukan oleh blok kurung kurawal `{}`.
+
+1. **Class Scope (Static/Instance)**: Dideklarasikan di dalam class tapi di luar method. Dapat diakses oleh semua method di class tersebut.
+2. **Method Scope (Local)**: Dideklarasikan di dalam method. Hanya bisa diakses di dalam method tersebut.
+3. **Block Scope**: Dideklarasikan di dalam blok `{}` (seperti `if`, `for`, atau blok kode biasa). Hanya dikenal sampai blok tersebut ditutup.
+
+**Aturan Emas**: Variabel di dalam blok "anak" bisa melihat variabel di blok "induk", tapi tidak sebaliknya.
+
+---
+
 ## Komentar (Comments)
 
 File: `src/basic/Comment.java`
