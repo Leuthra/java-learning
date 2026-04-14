@@ -87,6 +87,50 @@ int piInt = (int) pi; // Explicit casting
 
 ---
 
+## Operator
+
+File: `src/basic/Operator.java`
+
+Operator adalah simbol yang digunakan untuk melakukan operasi pada variabel dan nilai.
+
+### 1. Operator Aritmatika
+Digunakan untuk perhitungan matematika dasar.
+- `+` (Penjumlahan)
+- `-` (Pengurangan)
+- `*` (Perkalian)
+- `/` (Pembagian) -> Hati-hati: pembagian antar `int` akan menghasilkan `int` (desimal dibuang).
+- `%` (Modulus/Sisa Bagi)
+
+### 2. Operator Penugasan (Assignment)
+Digunakan untuk memberikan nilai ke variabel.
+- `=` (Sama dengan)
+- `+=`, `-=`, `*=`, `/=`, `%=` (Shortcut operasi dan penugasan). Contoh: `x += 5` sama dengan `x = x + 5`.
+
+### 3. Operator Perbandingan
+Menghasilkan nilai `boolean` (`true` atau `false`).
+- `==` (Sama dengan)
+- `!=` (Tidak sama dengan)
+- `>` (Lebih besar)
+- `<` (Lebih kecil)
+- `>=` (Lebih besar sama dengan)
+- `+=` (Lebih kecil sama dengan)
+
+### 4. Operator Logika
+Digunakan untuk menggabungkan dua atau lebih nilai boolean.
+- `&&` (Logical AND): `true` jika keduanya true.
+- `||` (Logical OR): `true` jika salah satu true.
+- `!` (Logical NOT): Membalikkan nilai (true jadi false, vice-versa).
+
+### 5. Increment & Decrement
+- `++` (Increment): Menambah 1.
+- `--` (Decrement): Mengurangi 1.
+
+**Perbedaan Pre dan Post:**
+- `x++` (Post): Nilai digunakan dulu, baru ditambah.
+- `++x` (Pre): Nilai ditambah dulu, baru digunakan.
+
+---
+
 ## Formatted Output (`printf`)
 
 Penggunaan `System.out.printf()` memungkinkan kontrol lebih tinggi pada format tampilan output.
