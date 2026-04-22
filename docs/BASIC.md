@@ -151,6 +151,39 @@ Contoh: `System.out.printf("Nilai: %.2f%n", 3.14159);` menghasilkan `Nilai: 3.14
 
 ---
 
+## Input dari Keyboard (Scanner)
+
+Untuk membaca input dari user, Java menyediakan kelas `java.util.Scanner`.
+
+**Cara Penggunaan:**
+1. Import kelas: `import java.util.Scanner;`
+2. Inisialisasi: `Scanner input = new Scanner(System.in);`
+3. Gunakan method yang sesuai:
+    - `.nextInt()`: Membaca bilangan bulat (`int`).
+    - `.nextDouble()`: Membaca bilangan desimal (`double`).
+    - `.nextLine()`: Membaca satu baris teks (`String`).
+4. Tutup scanner jika sudah tidak digunakan: `input.close();`
+
+---
+
+## Latihan: Implementasi Rumus Matematika
+
+Kumpulan program sederhana untuk mempraktekkan input, operasi aritmatika, dan output.
+
+### 1. Luas & Keliling Persegi Panjang
+File: `src/basic/task/LuasKelilingPersegiPanjang.java`
+
+Program ini membaca input panjang dan lebar, lalu menghitung:
+- **Luas**: `panjang * lebar`
+- **Keliling**: `2 * (panjang + lebar)`
+
+### 2. Luas Lingkaran & Segitiga
+File: `src/basic/task/LuasLingkaran.java`, `src/basic/task/LuasSegitiga.java`
+
+Program pendukung yang menghitung luas bangun datar menggunakan nilai yang sudah ditentukan (hardcoded) atau input.
+
+---
+
 ## Eksekusi & Kompilasi
 
 Kompilasi semua file ke folder `bin/`:
