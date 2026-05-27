@@ -1,5 +1,3 @@
-package basic.task;
-
 import java.util.Scanner;
 
 /**
@@ -7,6 +5,7 @@ import java.util.Scanner;
  * Input dibaca dari keyboard menggunakan kelas Scanner.
  */
 public class KategoriUsia {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -17,10 +16,12 @@ public class KategoriUsia {
             System.out.println("Kategori Usia Kamu adalah Anak-anak");
         } else if (usia >= 17 && usia <= 25) {
             System.out.println("Kategori Usia Kamu adalah Remaja");
-        } else if (usia > 25 && usia <=55) {
+        } else if (usia > 25 && usia <= 55) {
             System.out.println("Kategori Usia Kamu adalah Dewasa");
         } else {
-            System.out.println("Kategori Usia Kamu tidak valid (di luar rentang table)");
+            System.out.println(
+                "Kategori Usia Kamu tidak valid (di luar rentang table)"
+            );
         }
 
         input.close();

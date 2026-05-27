@@ -1,10 +1,9 @@
-package basic;
-
 /**
  * Kelas Operator mendemonstrasikan berbagai jenis operator di Java:
  * Aritmatika, Perbandingan, Logika, Penugasan, dan Increment/Decrement.
  */
 public class Operator {
+
     public static void main(String[] args) {
         // --- 1. Operator Aritmatika ---
         int a = 10;
@@ -15,7 +14,12 @@ public class Operator {
         System.out.printf("%d - %d = %d%n", a, b, (a - b));
         System.out.printf("%d * %d = %d%n", a, b, (a * b));
         System.out.printf("%d / %d = %d (Pembagian bulat)%n", a, b, (a / b));
-        System.out.printf("%d %% %d = %d (Sisa bagi/Modulus)%n%n", a, b, (a % b));
+        System.out.printf(
+            "%d %% %d = %d (Sisa bagi/Modulus)%n%n",
+            a,
+            b,
+            (a % b)
+        );
 
         // --- 2. Operator Penugasan (Assignment) ---
         int c = 5;
@@ -48,6 +52,6 @@ public class Operator {
         System.out.printf("Nilai d awal: %d%n", d);
         System.out.printf("d++ (Post-increment): %d%n", d++); // Cetak dulu baru tambah
         System.out.printf("Setelah d++: %d%n", d);
-        System.out.printf("++d (Pre-increment): %d%n", ++d);  // Tambah dulu baru cetak
+        System.out.printf("++d (Pre-increment): %d%n", ++d); // Tambah dulu baru cetak
     }
 }

@@ -1,15 +1,14 @@
-package basic;
-
 /**
  * Kelas DataTypes mendemonstrasikan penggunaan tipe data primitif,
  * String (Non-Primitif), Casting, dan Konstanta di Java.
  */
 public class DataTypes {
+
     public static void main(String[] args) {
         // --- 1. Bilangan Bulat (Integer) ---
-        byte nilaiByte = 127;           // 8-bit: -128 s/d 127
-        short nilaiShort = 32767;       // 16-bit: -32.768 s/d 32.767
-        int nilaiInt = 2147483647;      // 32-bit: -2.1 Miliar s/d 2.1 Miliar
+        byte nilaiByte = 127; // 8-bit: -128 s/d 127
+        short nilaiShort = 32767; // 16-bit: -32.768 s/d 32.767
+        int nilaiInt = 2147483647; // 32-bit: -2.1 Miliar s/d 2.1 Miliar
         long nilaiLong = 9223372036854775807L; // 64-bit (Gunakan akhiran 'L')
 
         System.out.println("=== Bilangan Bulat ===");
@@ -19,7 +18,7 @@ public class DataTypes {
         System.out.printf("Long  : %d%n%n", nilaiLong);
 
         // --- 2. Bilangan Desimal (Floating Point) ---
-        float nilaiFloat = 3.14f;       // 32-bit (Gunakan akhiran 'f')
+        float nilaiFloat = 3.14f; // 32-bit (Gunakan akhiran 'f')
         double nilaiDouble = 3.1415926535; // 64-bit (Default untuk desimal)
 
         System.out.println("=== Bilangan Desimal ===");
@@ -41,9 +40,18 @@ public class DataTypes {
 
         System.out.println("=== Perbandingan String ===");
         // Menggunakan .equals() adalah cara profesional untuk membandingkan isi teks
-        System.out.printf("Literal vs Literal (==)   : %b%n", (bahasa == target));
-        System.out.printf("Literal vs Objek (==)     : %b%n", (bahasa == favorit));
-        System.out.printf("Literal vs Objek (.equals): %b%n%n", bahasa.equals(favorit));
+        System.out.printf(
+            "Literal vs Literal (==)   : %b%n",
+            (bahasa == target)
+        );
+        System.out.printf(
+            "Literal vs Objek (==)     : %b%n",
+            (bahasa == favorit)
+        );
+        System.out.printf(
+            "Literal vs Objek (.equals): %b%n%n",
+            bahasa.equals(favorit)
+        );
 
         // --- 5. Konstanta (Immutable) ---
         final String VERSI = "21.0.1";
@@ -53,14 +61,18 @@ public class DataTypes {
         // --- 6. Casting ---
         // Widening Casting (Otomatis): kecil ke besar
         int myInt = 9;
-        double myDouble = myInt; 
+        double myDouble = myInt;
 
         // Narrowing Casting (Manual): besar ke kecil
         double pi = 3.14;
         int piInt = (int) pi;
 
         System.out.println("=== Casting ===");
-        System.out.printf("Widening (int %d -> double %.1f)%n", myInt, myDouble);
+        System.out.printf(
+            "Widening (int %d -> double %.1f)%n",
+            myInt,
+            myDouble
+        );
         System.out.printf("Narrowing (double %.2f -> int %d)%n", pi, piInt);
     }
 }

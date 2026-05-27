@@ -1,10 +1,9 @@
-package basic.task;
-
 /**
  * Program sederhana untuk menghitung luas lingkaran.
  * Rumus: PI * r * r
  */
 public class LuasLingkaran {
+
     public static void main(String[] args) {
         final double PI = 3.14159;
         double r = 7.0;

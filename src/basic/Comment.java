@@ -1,5 +1,3 @@
-package basic;
-
 /**
  * Javadoc Comment:
  * Kelas ini menjelaskan tiga jenis komentar di Java.
@@ -25,7 +23,7 @@ public class Comment {
         System.out.println("Belajar Multi-line Comment (/* ... */)");
 
         // Praktik terbaik:
-        // Gunakan komentar untuk menjelaskan "Mengapa" (Why), 
+        // Gunakan komentar untuk menjelaskan "Mengapa" (Why),
         // bukan menjelaskan "Apa" (What) yang sudah jelas dari nama variabel.
     }
 }
