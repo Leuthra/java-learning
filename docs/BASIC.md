@@ -182,6 +182,26 @@ File: `src/basic/task/LuasLingkaran.java`, `src/basic/task/LuasSegitiga.java`
 
 Program pendukung yang menghitung luas bangun datar menggunakan nilai yang sudah ditentukan (hardcoded) atau input.
 
+### 3. Pola Bintang dengan While
+File: `src/basic/task/PolaBintang.java`
+
+Program ini menampilkan pola bintang yang naik dari 1 sampai 6 bintang, lalu turun kembali sampai 1 bintang menggunakan perulangan `while`.
+
+Output:
+```text
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+```
+
 ---
 
 ## Eksekusi & Kompilasi
@@ -189,7 +209,7 @@ Program pendukung yang menghitung luas bangun datar menggunakan nilai yang sudah
 Kompilasi semua file ke folder `bin/`:
 ```powershell
 # Kompilasi
-javac -d bin src/basic/*.java
+java -d bin src/basic/*.java
 
 # Menjalankan program
 java -cp bin basic.DataTypes
