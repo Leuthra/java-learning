@@ -209,11 +209,12 @@ Output:
 Kompilasi semua file ke folder `bin/`:
 ```powershell
 # Kompilasi
-java -d bin src/basic/*.java
+javac -d bin (Get-ChildItem -Recurse -File -Include *.java | ForEach-Object { $_.FullName })
 
 # Menjalankan program
 java -cp bin basic.DataTypes
 java -cp bin basic.Comment
+java -cp bin basic.task.PolaBintang
 ```
 
 ## Aturan Penamaan

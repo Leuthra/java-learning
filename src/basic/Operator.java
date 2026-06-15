@@ -1,3 +1,5 @@
+package basic;
+
 /**
  * Kelas Operator mendemonstrasikan berbagai jenis operator di Java:
  * Aritmatika, Perbandingan, Logika, Penugasan, dan Increment/Decrement.

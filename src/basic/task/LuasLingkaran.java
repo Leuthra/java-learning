@@ -1,3 +1,5 @@
+package basic.task;
+
 /**
  * Program sederhana untuk menghitung luas lingkaran.
  * Rumus: PI * r * r

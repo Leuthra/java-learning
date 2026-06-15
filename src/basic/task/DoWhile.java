@@ -1,3 +1,5 @@
+package basic.task;
+
 import java.util.Scanner;
 
 public class DoWhile {
@@ -47,5 +49,7 @@ public class DoWhile {
         System.out.println(
             "Anda sudah melakukan perulangan sebanyak " + counter + " Kali"
         );
+
+        scan.close();
     }
 }

@@ -1,3 +1,5 @@
+package basic.task;
+
 import java.util.Scanner;
 
 /**

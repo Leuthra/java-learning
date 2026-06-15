@@ -1,3 +1,5 @@
+package basic;
+
 /**
  * Javadoc Comment:
  * Kelas ini menjelaskan tiga jenis komentar di Java.

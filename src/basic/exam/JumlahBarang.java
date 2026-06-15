@@ -1,3 +1,5 @@
+package basic.exam;
+
 import java.util.Scanner;
 
 public class JumlahBarang {

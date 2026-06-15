@@ -1,3 +1,5 @@
+package basic.exam;
+
 public class DataBarang {
 
     public static void main(String[] args) {

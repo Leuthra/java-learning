@@ -1,3 +1,5 @@
+package basic.task;
+
 /**
  * Program sederhana untuk menghitung luas segitiga.
  * Rumus: 1/2 * alas * tinggi

@@ -1,3 +1,5 @@
+package basic;
+
 /**
  * Kelas VariableScope mendemonstrasikan cakupan (scope) variabel
  * di dalam Java: Static, Method, dan Block level.

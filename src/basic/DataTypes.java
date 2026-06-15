@@ -1,3 +1,5 @@
+package basic;
+
 /**
  * Kelas DataTypes mendemonstrasikan penggunaan tipe data primitif,
  * String (Non-Primitif), Casting, dan Konstanta di Java.

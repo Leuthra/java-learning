@@ -1,3 +1,5 @@
+package basic.task;
+
 /**
  * Program untuk menampilkan pola bintang naik dan turun menggunakan while.
  */
