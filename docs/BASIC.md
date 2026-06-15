@@ -202,6 +202,11 @@ Output:
 *
 ```
 
+### 4. Jumlah dan Rata-Rata Array
+File: `src/basic/task/JumlahRataRataArray.java`
+
+Program ini membaca 10 bilangan bulat menggunakan `Scanner`, menyimpannya ke dalam array, lalu menghitung jumlah seluruh bilangan dan nilai rata-ratanya.
+
 ---
 
 ## Eksekusi & Kompilasi
